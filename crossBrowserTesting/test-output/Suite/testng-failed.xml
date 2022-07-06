@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestForChrome(failed)">
+    <parameter name="appURL" value="https://www.realme.com/in/"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="com.pack.tests.BasePageTest">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="closeSetup"/>
+          <include name="setUp"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.pack.tests.BasePageTest -->
+    </classes>
+  </test> <!-- TestForChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->
